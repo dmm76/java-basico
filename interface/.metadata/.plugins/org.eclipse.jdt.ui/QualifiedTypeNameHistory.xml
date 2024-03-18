@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="interfaces.Impressora"/>
+    <fullyQualifiedTypeName name="interfaces.Digitalizadora"/>
+    <fullyQualifiedTypeName name="interfaces.Copiadora"/>
+    <fullyQualifiedTypeName name="equipamentos.copiadora.Copiadora"/>
+    <fullyQualifiedTypeName name="equipamentos.digitalizadora.Digitalizadora"/>
+    <fullyQualifiedTypeName name="equipamentos.impressora.Deskjet"/>
+    <fullyQualifiedTypeName name="equipamentos.impressora.Impressora"/>
+    <fullyQualifiedTypeName name="equipamentos.impressora.Laserjet"/>
+    <fullyQualifiedTypeName name="equipamentos.multifuncional.EquipamentoMultifuncional"/>
+</qualifiedTypeNameHistroy>

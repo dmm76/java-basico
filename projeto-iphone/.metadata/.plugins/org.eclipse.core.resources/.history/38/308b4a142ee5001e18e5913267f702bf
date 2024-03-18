@@ -1,0 +1,18 @@
+package iphone.navegador;
+
+public abstract class NavegadorInternet {
+	public abstract void exibindoPagina();
+	
+	public abstract void adicionarAba();
+	
+	public abstract void atualizarPagina();
+	
+	public  abstract void voltandoPagina();
+	
+	public  abstract void avancarPagina();
+	
+	protected void acessarNavegador() {
+		System.out.println("Acesso ao Navegador Permitido");
+	}
+	
+}

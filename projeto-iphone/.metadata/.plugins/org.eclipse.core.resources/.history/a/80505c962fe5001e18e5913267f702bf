@@ -1,0 +1,8 @@
+package iphone.musica;
+
+public abstract class ReprodutorMusical {
+	
+	public abstract void tocarMusica();
+	public abstract void pausarMusica();
+	
+}

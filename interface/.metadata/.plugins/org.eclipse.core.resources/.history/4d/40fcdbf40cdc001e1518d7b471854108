@@ -1,0 +1,7 @@
+package equipamentos.digitalizadora;
+
+import interfaces.Digitalizadora;
+
+public class Scanner extends Digitalizadora{
+
+}

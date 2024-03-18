@@ -1,0 +1,8 @@
+package equipamentos.copiadora;
+
+public class Snippet {
+	public void digitalizar() {
+			System.out.println("Digitalizando");
+		}
+}
+
