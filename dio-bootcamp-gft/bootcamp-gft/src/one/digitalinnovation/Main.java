@@ -43,7 +43,7 @@ public class Main {
 		bootcamp.setConteudos(conteudosBootcamp);
 		
 		Dev felipao = new Dev();
-		felipao.setNome("Felipão");
+		felipao.setNome("Douglas");
 		
 		Dev venilton = new Dev();
 		venilton.setNome("Venilton");
@@ -58,7 +58,7 @@ public class Main {
 		venilton.progredir();
 		venilton.progredir();
 
-		System.out.println(String.format("XP Felipão: %.2f", felipao.calcularTotalXp()));
+		System.out.println(String.format("XP Douglas: %.2f", felipao.calcularTotalXp()));
 		System.out.println(String.format("XP Venilton: %.2f", venilton.calcularTotalXp()));
 		
 		List<Dev> ranking = Arrays.asList(felipao, venilton).stream()
