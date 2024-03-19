@@ -1,0 +1,10 @@
+package iphone;
+
+public class Mp3Player {
+	public static void main(String[] args) {
+		MP3 player = new MP3();
+		
+		player.tocarMusica();
+	}
+	
+}

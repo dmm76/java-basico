@@ -1,0 +1,37 @@
+package iphone;
+
+import iphone.musica.Mp3Player;
+import iphone.musica.ReprodutorMusical;
+import iphone.navegador.GoogleChrome;
+import iphone.navegador.NavegadorInternet;
+import iphone.navegador.Netscape;
+import iphone.phone.AparelhoTelefonico;
+
+public class IphoneDouglas {
+	public static void main(String[] args) {
+		Mp3Player player = new Mp3Player();
+		player.tocarMusica();
+		player.pausarMusica();
+		
+		AparelhoTelefonico phone = new AparelhoTelefonico();
+		phone.ligar();
+		phone.atender();
+		phone.correio();
+		
+		NavegadorInternet browser = new NavegadorInternet();
+		browser.exibindoPagina();
+		browser.adicionarAba();
+		browser.avancarPagina();
+		browser.atualizarPagina();
+		browser.voltandoPagina();
+		
+		GoogleChrome chrome = new GoogleChrome();
+		chrome.exibindoPagina();
+		
+		Netscape netscape = new Netscape();
+		netscape.exibindoPagina();
+		
+		
+	}
+	
+}

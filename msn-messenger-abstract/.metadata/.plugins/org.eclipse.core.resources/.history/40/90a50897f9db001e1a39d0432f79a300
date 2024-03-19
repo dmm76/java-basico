@@ -1,0 +1,18 @@
+package servicomensagem;
+
+public class ComputadorPedrinho {
+	public static void main(String[] args) {
+		ServicoMensagemInstantanea smi = null;
+		
+		String appEscolhidos = "msn";
+		
+		if(appEscolhidos.equals("msn"))
+			smi = new Msn();
+		else if(appEscolhidos.equals("facebook"))
+			smi = new Facebook();
+		else if(appEscolhidos.equals("telegram"))
+			smi = new Telegram();
+		smi.enviarMensagem();
+		smi.receberMensagem();
+	}
+}

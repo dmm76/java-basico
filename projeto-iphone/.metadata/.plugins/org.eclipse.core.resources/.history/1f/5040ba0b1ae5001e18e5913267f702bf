@@ -1,0 +1,19 @@
+package iphone;
+
+public class IphoneDouglas {
+	public static void main(String[] args) {
+		ReprodutorMusical player = new ReprodutorMusical();
+		player.tocarMusica();
+		player.pausarMusica();
+		
+		AparelhoTelefonico phone = new AparelhoTelefonico();
+		phone.ligar();
+		phone.atender();
+		phone.correio();
+		
+		NavegadorInternet browser = new NavegadorInternet();
+		browser.exibindoPagina();
+		
+	}
+	
+}

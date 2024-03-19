@@ -1,0 +1,8 @@
+package iphone;
+
+import iphone.navegador.NavegadorInternet;
+
+public class Iphone implements ReprodutorMusical, NavegadorInternet {
+	
+	
+}

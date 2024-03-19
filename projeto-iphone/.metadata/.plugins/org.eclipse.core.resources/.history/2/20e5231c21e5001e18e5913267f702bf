@@ -1,0 +1,8 @@
+package iphone.navegador;
+
+public class Netscape extends NavegadorInternet {
+	public void exibindoPagina() {
+		System.out.println("\nBem vindo ao NETSCAPE");
+		super.exibindoPagina();
+	}
+}

@@ -1,0 +1,54 @@
+package iphone;
+
+import iphone.musica.ReprodutorMusical;
+import iphone.navegador.NavegadorInternet;
+import iphone.phone.AparelhoTelefonico;
+
+public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTelefonico {
+
+	//public void ligar() {
+	//		
+	//}
+
+	public void atender() {
+				
+	}
+
+	public void correio() {
+			
+	}
+
+	public void tocarMusica() {
+
+	}
+
+	public void pausarMusica() {
+		
+	}
+
+	public void exibindoPagina() {
+		
+	}
+
+	public void adicionarAba() {
+		
+	}
+
+	public void atualizarPagina() {
+
+		
+	}
+	public void voltandoPagina() {
+
+	}
+
+	public void avancarPagina() {
+
+	}
+
+	public void acessarNavegador() {
+		
+	}
+	
+	
+}

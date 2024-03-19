@@ -1,0 +1,5 @@
+package iphone.phone;
+
+public class IosPhone extends AparelhoTelefonico{
+
+}

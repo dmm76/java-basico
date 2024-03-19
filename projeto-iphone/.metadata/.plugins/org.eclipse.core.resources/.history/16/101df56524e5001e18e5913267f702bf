@@ -1,0 +1,41 @@
+package iphone;
+
+import iphone.musica.Mp3Player;
+import iphone.navegador.GoogleChrome;
+import iphone.navegador.NavegadorInternet;
+import iphone.navegador.Netscape;
+import iphone.phone.IosPhone;
+
+
+public class IphoneDouglas {
+	public static void main(String[] args) {
+		Mp3Player player = new Mp3Player();
+		player.tocarMusica();
+		player.pausarMusica();
+		
+		IosPhone phone = new IosPhone();
+		phone.ligar();
+		phone.atender();
+		phone.correio();
+		
+		NavegadorInternet ni = null;
+		int appEscolhido = 0;
+		
+		System.out.println("Escolha qual navegador irá usar?");
+		System.out.println("1: GOOGLE CHROME");
+		System.out.println("2: NETSCAPE");
+		if(appEscolhido == 1)
+			ni = new GoogleChrome();
+		else if(appEscolhido == 2)
+			ni = new Netscape();
+			
+		ni.exibindoPagina();
+	
+		
+		
+		
+		
+		
+	}
+	
+}

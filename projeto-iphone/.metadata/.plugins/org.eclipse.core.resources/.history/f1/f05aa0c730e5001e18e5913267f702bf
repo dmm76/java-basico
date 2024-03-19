@@ -1,0 +1,76 @@
+package iphone;
+
+import iphone.musica.ReprodutorMusical;
+import iphone.navegador.NavegadorInternet;
+import iphone.phone.AparelhoTelefonico;
+
+public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTelefonico {
+
+	@Override
+	public void ligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atender() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void correio() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void tocarMusica() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void pausarMusica() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void exibindoPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void adicionarAba() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizarPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void voltandoPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void avancarPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void acessarNavegador() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

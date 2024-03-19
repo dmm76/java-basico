@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Dio\WS\java-basico\msn-messenger-abstract\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3413270776.index
+3791536355.index
