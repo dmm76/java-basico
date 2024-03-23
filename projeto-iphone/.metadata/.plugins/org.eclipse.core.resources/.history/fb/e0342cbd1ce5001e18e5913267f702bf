@@ -1,7 +1,0 @@
-package iphone;
-
-import iphone.musica.ReprodutorMusical;
-
-public class Mp3Player extends ReprodutorMusical{
-
-}

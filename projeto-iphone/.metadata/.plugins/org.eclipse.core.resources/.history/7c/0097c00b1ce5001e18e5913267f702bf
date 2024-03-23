@@ -1,5 +1,0 @@
-package iphone;
-
-public class GoogleChrome extends NavegadorInternet{
-
-}
